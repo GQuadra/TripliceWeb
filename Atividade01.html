@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Atividade01</title>
+    <link href="Atividade01.style.css" rel="stylesheet">
+</head>
+<body>
+<form>
+    <label for="nome">Nome Completo</label>
+    <input id="nome" name="nome" placeholder="Ex: João Silva" required type="text">
+
+    <label for="email">E-mail Profissional</label>
+    <input id="email" name="email" placeholder="exemplo@dominio.pt" required type="email">
+
+    <label for="senha">Palavra-passe</label>
+    <input id="senha" name="senha" required type="password">
+
+    <label for="idade">Idade</label>
+    <input id="idade" max="120" min="18" name="idade" type="number" value="18">
+
+
+    <label for="nascimento">Data de Nascimento</label>
+    <input id="nascimento" name="nascimento" type="date">
+
+    <p>Gênero:</p>
+    <label>Masculino<input id="masc" name="genero" type="radio"></label>
+    <label>Feminino<input id="fem" name="genero" type="radio"></label>
+    <label>Outros<input id="outros" name="genero" type="radio"></label>
+
+    <p>Turnos Disponiveis</p>
+
+    <label>Matutino<input type="checkbox"></label>
+    <label>Vespertino<input type="checkbox"></label>
+    <label>Noturno<input type="checkbox"></label>
+
+    <label for="cor">Cor de Destaque</label>
+    <input id="cor" name="cor" type="color">
+</form>
+</body>
+</html>
